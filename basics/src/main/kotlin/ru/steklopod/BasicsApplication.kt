@@ -15,7 +15,6 @@ import javax.sql.DataSource
 @SpringBootApplication
 class BasicsApplication {
 
-
 	@Bean
 	fun springTransactionManager(ds: DataSource) = SpringTransactionManager(ds)
 

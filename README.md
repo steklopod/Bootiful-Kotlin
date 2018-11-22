@@ -1,4 +1,4 @@
-# Bootiful Kotlin
+# Bootiful Kotlin [Maven]
 
 
 Код из конференции `KotlinConf 2017`. Как кодить на Kotlin и Spring Boot 2 показывает *Josh Long*.
