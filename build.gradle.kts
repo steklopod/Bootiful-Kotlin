@@ -5,7 +5,6 @@ import org.jetbrains.kotlin.contracts.model.structure.UNKNOWN_COMPUTATION.type
 import org.jetbrains.kotlin.gradle.plugin.KotlinPluginWrapper
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-
 plugins {
     application
     val kotlinVersion = "1.3.10"
@@ -101,7 +100,7 @@ dependencies {
 //    testImplementation("org.junit.jupiter:junit-jupiter-params")
 //    testImplementation("org.assertj:assertj-core")
 //    testImplementation("io.github.glytching:junit-extensions:2.3.0") // glytching.github.io/junit-extensions/index
-    // testImplementation("io.projectreactor:reactor-test")
+     testImplementation("io.projectreactor:reactor-test")
     testImplementation("org.junit.jupiter:junit-jupiter-api")
     testRuntime("org.junit.platform:junit-platform-launcher")
     testRuntime("org.junit.jupiter:junit-jupiter-engine")
